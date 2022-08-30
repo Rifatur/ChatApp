@@ -1,6 +1,6 @@
-﻿namespace ChatApp.Application.DTOs
+﻿namespace ChatApp.Api.DTOs
 {
-    public class MessageAppDTOs
+    public class SendMessageDTOs
     {
         public string? Id { get; set; }
         public string? Sender { get; set; }

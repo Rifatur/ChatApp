@@ -1,6 +1,7 @@
 ﻿using ChatApp.Application.DTOs;
 using ChatApp.Application.services.interfaces;
 using ChatApp.DataAccess;
+using ChatApp.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChatApp.Application.services.Implementation
@@ -13,7 +14,7 @@ namespace ChatApp.Application.services.Implementation
         {
             _context = context;
         }
-        public async Task<MessageAppDTOs> AddMessageAsync(MessageAppDTOs messageAppDTOs)
+        public async Task<Message> AddMessageAsync(Message messageAppDTOs)
         {
             var result = await _context.AddAsync(messageAppDTOs);
             await _context.SaveChangesAsync();
@@ -43,9 +44,10 @@ namespace ChatApp.Application.services.Implementation
             }
         }
 
-        public IEnumerable<MessageAppDTOs> GetReceivedMessages(string userId)
+        public IEnumerable<Message> GetReceivedMessages(string userId)
         {
-            throw new NotImplementedException();
+            var messages = _context.Messages.Where(x => x.Receiver == userId).ToList();
+            return messages;
         }
 
 

@@ -1,4 +1,5 @@
 ﻿using ChatApp.Application.DTOs;
+using ChatApp.DataAccess.Entities;
 
 namespace ChatApp.Application.services.interfaces
 {
@@ -6,8 +7,8 @@ namespace ChatApp.Application.services.interfaces
     public interface IMessageService
     {
         IEnumerable<MessageAppDTOs> GetAll();
-        IEnumerable<MessageAppDTOs> GetReceivedMessages(string userId);
-        Task<MessageAppDTOs> AddMessageAsync(MessageAppDTOs messageAppDTOs);
+        IEnumerable<Message> GetReceivedMessages(string userId);
+        Task<Message> AddMessageAsync(Message messageAppDTOs);
         void DeleteMessage(DeleteMessageDTOs deleteMessageDTOs);
     }
 }
