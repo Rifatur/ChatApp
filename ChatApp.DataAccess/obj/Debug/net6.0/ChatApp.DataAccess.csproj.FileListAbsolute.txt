@@ -1,0 +1,14 @@
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\bin\Debug\net6.0\ChatApp.DataAccess.deps.json
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\bin\Debug\net6.0\ChatApp.DataAccess.runtimeconfig.json
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\bin\Debug\net6.0\ChatApp.DataAccess.dll
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\bin\Debug\net6.0\ChatApp.DataAccess.pdb
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.AssemblyInfo.cs
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.dll
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\refint\ChatApp.DataAccess.dll
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.pdb
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ChatApp.DataAccess.genruntimeconfig.cache
+C:\Users\rifat\OneDrive\Desktop\Personal Project\ChatApplication\ChatApp.DataAccess\obj\Debug\net6.0\ref\ChatApp.DataAccess.dll

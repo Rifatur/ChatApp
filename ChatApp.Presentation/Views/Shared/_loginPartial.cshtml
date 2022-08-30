@@ -1,0 +1,10 @@
+﻿@using ChatApp.DataAccess.Entities
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <a class="nav-link text-dark">@UserManager.GetUserName(User)</a>
+}
